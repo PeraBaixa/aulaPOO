@@ -85,6 +85,10 @@ def forcaCalc():
             break
         
         print("ERROU!!!")
+        if chute > res:
+            print("DESCE!!!")
+        else:
+            print("SOBE!!!")
         pontos -= 1
 
 def testaRes():
